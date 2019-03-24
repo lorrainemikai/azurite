@@ -42,7 +42,7 @@ li a:hover {
     color: aliceblue;
 }
 
-.nav{
+.nav {
     margin-top: 94px;
     font-family: 'Caveat', cursive;
     font-size: 59px;
@@ -55,108 +55,120 @@ li a:hover {
     font-family: 'Old Standard TT', serif;
     color: aliceblue;
 }
+
 /* about us */
-.jumbotron{
-    background-color: rgba(231, 154, 53, 0.904);
+.jumbotron {
+    background-color: rgba(158, 228, 222, 0.904);
     font-family: 'Raleway', sans-serif;
     margin-right: 34px;
     margin-left: 34px;
     margin-top: 270px;
 }
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Instagram */
-  .fa-instagram {
-    background: rgb(170, 136, 44);
-    color: rgb(236, 200, 159);
-  }
-  /* phone */
-  .fa-phone {
-    background: rgb(170, 136, 44);
-    color: rgb(236, 200, 159);
-  }
-  .socialmedia{
-      text-align: center;
-      color: aliceblue;
-      font-family: 'Raleway', sans-serif;;
-  }
-  .women{
-      background: url('/images/women.jpg');
-      background-size: 7000px;
-  }
-  .head{
+/* code for women men and kids pics */
+.women {
+    background: url('/images/women.jpg');
+    background-size: 7000px;
+}
+
+.head {
     font-family: Poiret One;
     font-size: 250px;
-  }
-  img{
-      width: 500px;
-      height: 750px;
-      margin-right: 100px;
-  }
-.container{
+}
+
+img {
+    width: 500px;
+    height: 850px;
+    margin-right: 100px;
+}
+
+.container {
     position: absolute;
     cursor: pointer;
     overflow: hidden;
 }
-img:hover{
+
+img:hover {
     transform: scale(1.2);
     transition: all 1s ease-out;
     filter: brightness(.7);
 }
-.th{
+
+.th {
     margin-top: 100px;
     margin-bottom: 150px;
     font-family: 'Caveat', cursive;
     font-size: 68px;
 }
-.kids{
+
+.kids {
     background: url('/images/kids.jpeg');
     background-size: 7000px;
 }
+/* code for feedback.html */
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-   
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4CAF50;
-  
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(211, 203, 94);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #c0a14c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Add some padding around the form */
+.container {
     border-radius: 5px;
- 
     padding: 20px;
-  }
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 54px;
+    color: #ffffff;
+}
+.men{
+    background: url(/images/men.jpg);
+    background-size: 7000px;
+}
+.about{
+    background: url('/images/about.jpeg');
+    background-size: cover;
+}
+.feedback{
+    background: url('/images/feedback.jpeg');
+    background-size: 7000px;
+
+}
