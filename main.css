@@ -66,7 +66,7 @@ li a:hover {
 }
 /* code for women men and kids pics */
 .women {
-    background: url('/images/women.jpg');
+    background: url('images/women.jpg');
     background-size: 7000px;
 }
 
@@ -101,7 +101,7 @@ img:hover {
 }
 
 .kids {
-    background: url('/images/kids.jpeg');
+    background: url('images/kids.jpeg');
     background-size: 7000px;
 }
 /* code for feedback.html */
@@ -160,15 +160,15 @@ input[type=submit]:hover {
     color: #ffffff;
 }
 .men{
-    background: url(/images/men.jpg);
+    background: url('images/men.jpg');
     background-size: 7000px;
 }
 .about{
-    background: url('/images/about.jpeg');
+    background: url('images/about.jpeg');
     background-size: cover;
 }
 .feedback{
-    background: url('/images/feedback.jpeg');
+    background: url('images/feedback.jpeg');
     background-size: 7000px;
 
 }
